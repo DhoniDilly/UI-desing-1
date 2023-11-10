@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.banner-inner {
+    padding-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-in-box {
+    height: 75% !important;
+    width: 40% !important;
+    padding: 4.6rem;
+    border-radius: 20px !important;
+    border: none !important;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+}
+.sign-in-box h2 {
+    font-size: 23px;
+    font-size: 700;
+    padding-bottom: 1rem;
+}
+.sign-in-box input {
+    padding: .7rem 0 .7rem 1rem;
+    border: 1px solid rgb(160, 172, 222) !important;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.sign-in-box button {
+    padding: 1rem;
+    font-size: 17px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: #A22CFF;
+    color: white;
+    font-weight: 300;
+    border: none;
+    transition: all 0.2s;
+    border: 1px solid #A22CFF;
+}
+.sign-in-box button:hover {
+    background-color: white;
+    border: 1px solid #A22CFF;
+    color: #A22CFF;
+}
+.sign-in-box h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1rem;
+    color: #4c67f0;
+    padding-bottom: 3rem;
+}
+.sign-in-box .line {
+    background-color: rgb(22, 22, 22);
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .2;
+}
+.sign-in-box  h4 {
+    text-align: center;
+    font-size: 19px;
+    z-index: 10;
+    opacity: 1 !important;
+    margin-top: -12px;
+    background-color: #f7f4f9;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.social-icons i {
+    font-size: 23px;
+    width: 55px;
+    height: 55px;
+    background-color: #3D5B96;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.fa-twitter {
+    background-color: #2AA3EF !important;
+}
+.fa-linkedin-in {
+    background-color: #1178B3 !important;
+}
+.fa-face-smile-beam {
+    background-color: #FF4501 !important;
+}
+.sign-in-box h5 {
+    font-size: 25px;
+    padding: 1rem;
+    font-weight: 600;
+    color: #444385;
+}
+.sign-in-box ul {
+    padding-left: 0px !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.sign-in-box ul li {
+    list-style: none;
+    font-size: 18px;
+    color: #4c67f0;
+    border: 1px solid #4c67f0;
+    border-radius: 5px;
+    padding: .6rem 1rem .6rem 1rem;
+}
+
+@media only screen and (max-width:1220px) {
+    .banner-inner {
+        height: auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .sign-in-box {
+        width: 100% !important;
+        height: 100% !important;
+        padding: 2rem;
+    }
+}
+/* @media only screen and (min-width:501px) and (max-width:768px) {
+    .banner-inner {
+        height: auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .sign-in-box {
+        width: 100% !important;
+        height: 100% !important;
+        padding: 2rem;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:900px) {
+    .banner-inner {
+        height: auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .sign-in-box {
+        width: 100% !important;
+        height: 100% !important;
+        padding: 2rem;
+    }
+} */
